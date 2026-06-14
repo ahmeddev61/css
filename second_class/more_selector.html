@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- child selector -->
+  <style>
+    li > a {
+      color: rgb(255, 0, 187);
+    }
+    /* decedant selector */
+    ul a {
+      color: red;
+    }
+    /* adjacent selctor */
+    div + form {
+      color: blueviolet;
+    }
+    /* universal selector */
+    div ~ p {
+      color: blue;
+    }
+  </style>
+  <body>
+    <div>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <h1>ahmed</h1>
+    </div>
+    <form action="">
+      <label for="">Name:</label>
+      <input type="text" />
+    </form>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Home</a></li>
+      <li><a href="">Home</a></li>
+      <a href="">Home</a>
+    </ul>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </body>
+</html>
