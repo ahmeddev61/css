@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* last rule */
+      h1 {
+        color: brown;
+      }
+      h1 {
+        color: blue;
+      }
+      /* specificity rule */
+      h2 {
+        color: green;
+      }
+      #title {
+        color: blueviolet;
+      }
+      .heading {
+        color: chocolate;
+      }
+      /* importance rule */
+      h3 {
+        color: green !important ;
+      }
+      #unique {
+        color: blueviolet;
+      }
+      .importance {
+        color: chocolate;
+      }
+      /* inheritance rule */
+      .parent {
+        color: rgb(73, 16, 126);
+        font-size: xx-large;
+        border: 1px solid black;
+      }
+      p {
+        color: brown;
+        border: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>css last rule</h1>
+    <h2 class="heading" id="title">css specificity rule</h2>
+    <h3 class="importance" id="unique">css importance rule</h3>
+    <div class="parent">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <div>Lorem, ipsum dolor.</div>
+    </div>
+  </body>
+</html>
