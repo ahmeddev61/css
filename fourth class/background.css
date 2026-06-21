@@ -1,0 +1,7 @@
+.img {
+  width: 1300px;
+  height: 1000px;
+  background-color: rgba(0, 0, 170, 0.4);
+  background-image: url(../images/what-makes-someone-a-mental-health-expert-1440x810.jpg);
+  background-attachment: fixed;
+}

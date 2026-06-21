@@ -1,0 +1,17 @@
+.container {
+  /* background-color: blueviolet; */
+  width: 1000px;
+  height: 700px;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* opacity is used to transparent both backgroung and text and everthing inside the element while in rgpa just background color goes transparent */
+  /* opacity: 0.2; */
+  border: 1px solid black;
+  background-image: url(../images/what-makes-someone-a-mental-health-expert-1440x810.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-size: cover; */
+  /* background-position: top right;
+  background-position: bottom left; */
+  /* background-position: center center; */
+  background-position: 50% 30%;
+}
